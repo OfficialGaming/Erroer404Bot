@@ -50,7 +50,7 @@ client.on('message', message => {
     lastSender = message.guild.lastSender = message.author
     lastTime = new Date()
 
-    NOTIFY_CHANNEL.sendMessage('Walls have been checked! , thanks!')
+    return NOTIFY_CHANNEL.send('Walls have been checked! , thanks!')
 
     key = 0 }
 });
