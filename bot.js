@@ -65,14 +65,6 @@ client.on ('message', message => {
   if (message.content === prefix + "weewoo north") {
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-	NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM NORTH SIDE**', {tts: true});
   }
 });
 //WEEWOO EAST-------------------------------------------------------------------
@@ -80,28 +72,10 @@ client.on ('message', message => {
   if (message.content === prefix + "weewoo east") {
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-	NOTIFY_CHANNEL.sendMessage('@everyone **HMMMMMM**', {tts: true});
-	NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM EAST SIDE**', {tts: true});
-  }
 });
 //WEEWOO SOUTH------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo south") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-	  NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM SOUTH SIDE**', {tts: true});
   }
@@ -109,14 +83,6 @@ client.on ('message', message => {
 //WEEWOO WEST-------------------------------------------------------------------
 client.on ('message', message => {
   if (message.content === prefix + "weewoo west") {
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-	 NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
-    NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
     NOTIFY_CHANNEL.sendMessage('@everyone **BEING RAIDED FROM WEST SIDE**', {tts: true});
   }
