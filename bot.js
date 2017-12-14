@@ -50,7 +50,7 @@ client.on('message', message => {
     lastSender = message.guild.lastSender = message.author
     lastTime = new Date()
 
-    return NOTIFY_CHANNEL.send('Walls have been checked! , thanks!')
+   NOTIFY_CHANNEL.sendMessage('Walls have been checked! , thanks!')
 
     key = 0 }
 });
@@ -151,4 +151,4 @@ client.on ('message', message => {
   }
 })
 //LOGIN TOKEN-------------------------------------------------------------------
-client.login('MzkwNzEyMjMzMTQ1MDA4MTI4.DROGrA.Z_RsU6l-xxNiosBIDUPSPgsK_p0');
+client.login('MzU4NTAxNjMxNDc1NTgwOTI4.DROTMw.JqWKxSBeF27XeCcIoXmzegtm2B4');
