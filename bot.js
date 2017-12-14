@@ -27,7 +27,7 @@ function msToTime(timeMS) {
 client.on('ready', () => {
     client.user.setGame("tntdetectors.com | " + client.guilds.array().length + " Servers");
     console.log('successfully Logged In As Wall Check Bot!');
-    NOTIFY_CHANNEL = client.channels.find("name", "wall-check"); // Channel to send notification
+    NOTIFY_CHANNEL = client.channels.find("name", "factionslabwallcheck"); // Channel to send notification
 
 //SET INTERVAL------------------------------------------------------------------
     int1 = setInterval(function cannuner(){
